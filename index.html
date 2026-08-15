@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Galle | 6.0300° N, 80.2170° E</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600&family=Work+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= NAV ================= -->
+<header class="nav" id="top">
+  <div class="nav__inner">
+    <a href="#top" class="nav__brand">
+      <span class="nav__mark">G</span>
+      <span class="nav__word">
+        Galle
+        <small>6.0300° N&nbsp;&nbsp;80.2170° E</small>
+      </span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#geoportal">Geo-Portal</a>
+      <a href="#community">Community</a>
+    </nav>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+  <video class="hero__video" autoplay muted loop playsinline poster="">
+    <source src="https://assets.mixkit.co/videos/preview/mixkit-waves-in-the-ocean-1164-large.mp4" type="video/mp4">
+  </video>
+  <div class="hero__overlay"></div>
+
+  <div class="hero__grid" aria-hidden="true"></div>
+
+  <div class="hero__content">
+    <p class="eyebrow"><span class="eyebrow__dot"></span> Southern Province, Sri Lanka</p>
+    <h1>The Fort City<br>of the <em>Indian&nbsp;Ocean</em></h1>
+    <p class="hero__lede">
+      A UNESCO-listed rampart town where Dutch colonial streets meet
+      the tide. Explore Galle's coastline, heritage, and open
+      geospatial data — built for residents, researchers, and visitors.
+    </p>
+    <div class="hero__actions">
+      <a href="#geoportal" class="btn btn--solid">Open Geo-Portal</a>
+      <a href="#about" class="btn btn--ghost">Discover the Fort</a>
+    </div>
+  </div>
+
+  <a href="#about" class="hero__scroll" aria-label="Scroll to About">
+    <span>Scroll</span>
+    <svg width="14" height="20" viewBox="0 0 14 20" fill="none"><rect x="1" y="1" width="12" height="18" rx="6" stroke="currentColor" stroke-width="1.2"/><circle class="hero__scroll-dot" cx="7" cy="6" r="1.6" fill="currentColor"/></svg>
+  </a>
+
+  <svg class="hero__wave" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,40 C240,90 480,0 720,30 C960,60 1200,10 1440,45 L1440,90 L0,90 Z"></path>
+  </svg>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="about" id="about">
+  <div class="section__head">
+    <p class="eyebrow"><span class="eyebrow__dot"></span> About the Village</p>
+    <h2>Four centuries, one rampart</h2>
+  </div>
+
+  <div class="about__grid">
+    <div class="about__copy">
+      <p>
+        Galle sits where the Southern coastline curls into a natural
+        harbour, guarded since 1588 by a granite fort that has outlasted
+        the Portuguese, the Dutch, and the sea itself. Inside the walls,
+        coral-stone houses and rain trees shade streets that still run to
+        the original 17th-century grid.
+      </p>
+      <p>
+        Beyond the ramparts, the village widens into stilt-fishing coves,
+        cinnamon gardens, and the reef-lined beaches of Unawatuna — a
+        living coastline this site was built to map and share.
+      </p>
+      <ul class="stat-row">
+        <li><strong>1663</strong><span>Fort completed by the VOC</span></li>
+        <li><strong>36</strong><span>Hectares within the walls</span></li>
+        <li><strong>14</strong><span>Bastions along the rampart</span></li>
+      </ul>
+    </div>
+    <div class="about__frame">
+      <div class="coord-tag">GALLE FORT · 06.0257° N</div>
+      <img src="photos/galle-fort-and-surrounding-v0-rn9in1f7o9vc1.webp" alt="Galle Fort rampart wall at dusk overlooking the Indian Ocean">
+    </div>
+  </div>
+</section>
+
+<!-- ================= FEATURES GRID ================= -->
+<section class="features">
+  <div class="section__head">
+    <p class="eyebrow"><span class="eyebrow__dot"></span> Village Features</p>
+    <h2>What to chart</h2>
+  </div>
+
+  <div class="features__grid">
+
+    <article class="card card--wide">
+      <img src="photos/over-the-ramparts.jpg" alt="Galle Fort rampart wall at dusk overlooking the Indian Ocean">
+      <div class="card__body">
+        <span class="card__tag">Landmark</span>
+        <h3>Galle Fort Ramparts</h3>
+        <p>A 3&nbsp;km granite seawall encircling the old town, built by the Dutch on Portuguese foundations.</p>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="photos/galle-lighthouse-2657.jpeg" alt="Galle Fort rampart wall at dusk overlooking the Indian Ocean">
+        <span class="card__tag">Landmark</span>
+        <h3>Galle Lighthouse</h3>
+        <p>Sri Lanka's oldest light station, rebuilt in 1939 at the fort's southeastern point.</p>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="photos/SL_Galle_Fort_asv2020-01_img15.jpg" alt="dutch church">
+      <div class="card__body">
+        <span class="card__tag">Heritage</span>
+        <h3>Dutch Reformed Church</h3>
+        <p>Consecrated in 1755, its floor is paved with 17th-century gravestones.</p>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="photos/stilt-fishing.jpg" alt="fishermen">
+      <div class="card__body">
+        <span class="card__tag">Coastline</span>
+        <h3>Stilt Fishermen</h3>
+        <p>A century-old fishing method still practised along the coast road toward Weligama.</p>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="photos/images (6).jpg" alt="unawatuna beach">
+      <div class="card__body">
+        <span class="card__tag">Coastline</span>
+        <h3>Unawatuna Beach</h3>
+        <p>A reef-sheltered bay four kilometres south, framed by a Peace Pagoda on the headland.</p>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="photos/image_processing20220118-4-l75o40.webp" alt="surfing">
+      <div class="card__body">
+        <span class="card__tag">Community</span>
+        <h3>Surfing</h3>
+        <p>a vibrant gateway to the southwest surf coast of Sri Lanka. While the historic Galle Fort itself has no waves due to protective reefs, nearby Dewata Beach functions as the region's premier beginner surf hub, featuring mellow, sand-bottom waves, numerous surf schools, and easy board rentals.</p>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ================= GEO-PORTAL ================= -->
+<section class="geoportal" id="geoportal">
+  <div class="geoportal__panel">
+    <p class="eyebrow"><span class="eyebrow__dot"></span> Spatial Data Access</p>
+    <h2>Village Geo-Portal</h2>
+    <p class="geoportal__lede">
+      Download boundary layers, heritage-site coordinates, elevation
+      contours, and land-use shapefiles for Galle — free to residents,
+      planners, and researchers.
+    </p>
+
+    <div class="geoportal__actions">
+      <a href="#" class="btn btn--solid">Launch Map Viewer</a>
+      
+      <!-- Updated Download Button -->
+      <a href="for website.kml" download="galle-location.kml" class="btn btn--outline">Download Dataset (.kml)</a>
+      
+    </div>
+
+    <dl class="geoportal__meta">
+      <div><dt>Coordinate system</dt><dd>WGS 84 / EPSG:4326</dd></div>
+      <div><dt>Layers available</dt><dd>Boundary, Land-use, Heritage sites, Contours</dd></div>
+      <div><dt>Last surveyed</dt><dd>March 2026</dd></div>
+    </dl>
+  </div>
+
+  <div class="geoportal__map" aria-hidden="true">
+    <svg viewBox="0 0 400 400" class="geoportal__scan">
+      <circle cx="200" cy="200" r="150" class="ring ring--1"/>
+      <circle cx="200" cy="200" r="110" class="ring ring--2"/>
+      <circle cx="200" cy="200" r="70" class="ring ring--3"/>
+      <line x1="200" y1="20" x2="200" y2="380" class="crosshair"/>
+      <line x1="20" y1="200" x2="380" y2="200" class="crosshair"/>
+      <circle cx="200" cy="200" r="4" class="pin"/>
+    </svg>
+    <span class="geoportal__coord">06.0300° N, 80.2170° E</span>
+  </div>
+
+</section>
+<div class="geoportal__map">
+      <!-- Glowing neon frame for the map -->
+      <div class="map-frame">
+        <!-- Google Maps Embed for Galle -->
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126868.04419914713!2d80.126046!3d6.040857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae173a0a1a62319%3A0xbc4e2cb535352c3c!2sGalle%2C%20Sri%20Lanka!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+      
+      <!-- Coordinate tag on top of the map -->
+      <span class="geoportal__coord">06.0300° N, 80.2170° E</span>
+    </div>
+
+<!-- ================= COMMUNITY ================= -->
+<section class="community" id="community">
+  <div class="section__head">
+    <p class="eyebrow"><span class="eyebrow__dot"></span> Community Engagement</p>
+    <h2>Say something about your Galle</h2>
+  </div>
+
+  <div class="community__grid">
+
+    <div class="community__form">
+      <label for="c-name">Name</label>
+      <input id="c-name" type="text" placeholder="Your name">
+
+      <label for="c-msg">Comment</label>
+      <textarea id="c-msg" rows="4" placeholder="Share a memory, a suggestion, or a question about the village..."></textarea>
+
+      <button type="button" class="btn btn--solid btn--full">Post Comment</button>
+
+      <div class="community__thread">
+        <div class="thread__item">
+          <span class="thread__avatar">N</span>
+          <div>
+            <p><strong>Nimal K.</strong> <time>2 days ago</time></p>
+            <p>Could the portal add the flood-line data for the fort moat? Useful for our planning module.</p>
+          </div>
+        </div>
+        <div class="thread__item">
+          <span class="thread__avatar">S</span>
+          <div>
+            <p><strong>Sarah W.</strong> <time>1 week ago</time></p>
+            <p>Visited last month — the lighthouse layer helped me plan the whole walk. Thank you!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="community__social">
+      <h3>Follow the fort</h3>
+      <p>Stay updated on events, tide warnings, and new data releases.</p>
+      <div class="social__list">
+        <a href="#" class="social__link">Instagram <span>@galle.fort</span></a>
+        <a href="#" class="social__link">Facebook <span>Galle Village Council</span></a>
+        <a href="#" class="social__link">WhatsApp Group <span>Community updates</span></a>
+      </div>
+      <div class="community__stat">
+        <strong>2,340</strong>
+        <span>residents &amp; visitors in the network</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="nav__brand footer__brand">
+      <span class="nav__mark">G</span>
+      <span class="nav__word">Galle<small>Southern Province, Sri Lanka</small></span>
+    </div>
+    <p>&copy; 2026 Galle Village Geo-Portal · Built for PL1106, University of Moratuwa</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('navToggle').addEventListener('click', function(){
+    document.querySelector('.nav').classList.toggle('nav--open');
+  });
+  document.querySelectorAll('.nav__links a, .footer a').forEach(function(a){
+    a.addEventListener('click', function(){
+      document.querySelector('.nav').classList.remove('nav--open');
+    });
+  });
+  const header = document.querySelector('.nav');
+  window.addEventListener('scroll', function(){
+    header.classList.toggle('nav--scrolled', window.scrollY > 40);
+  });
+</script>
+
+</body>
+</html>
